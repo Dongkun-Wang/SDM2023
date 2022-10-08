@@ -1,0 +1,24 @@
+{
+    "spatial_embed_dim": {
+        "type": "choice",
+        "list": [24, 48, 96, 144]
+    },
+    "temporal_embed_dim": {
+        "type": "choice",
+        "list": [48, 96, 144, 192]
+    },
+    "spatial_num_layers": {
+    	"type": "choice",
+    	"list": [2, 4, 6]
+    },
+
+    "temporal_num_layers": {
+    	"type": "choice",
+    	"list": [2, 4, 6]
+    },
+
+    "dropout": {
+    	"type": "choice",
+    	"list": [0.1, 0.2, 0.3]
+    }
+} 

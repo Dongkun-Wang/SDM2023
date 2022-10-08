@@ -1,0 +1,6 @@
+{
+    "spatial_embed_dim": {
+        "type": "choice",
+        "list": [48, 96, 144, 192]
+    }
+}
